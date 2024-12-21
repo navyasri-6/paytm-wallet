@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm Wallet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Paytm Wallet</h1>
+        <div class="wallet-info">
+            <h2>Balance: <span id="balance">0</span> INR</h2>
+        </div>
+        
+        <div class="actions">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount" />
+            <div class="buttons">
+                <button id="depositBtn">Deposit</button>
+                <button id="withdrawBtn">Withdraw</button>
+            </div>
+        </div>
+        
+        <div class="history">
+            <h3>Transaction History</h3>
+            <ul id="transactionHistory"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
